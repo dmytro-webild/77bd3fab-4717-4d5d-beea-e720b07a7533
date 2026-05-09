@@ -12,7 +12,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
-import { Award, CheckCircle, Shield, Sparkles, Star, Zap } from "lucide-react";
+import { CheckCircle, Shield, Sparkles, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -76,6 +76,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
+      description="We prioritize quality, safety, and customer satisfaction in every meal we deliver."
       features={[
         { title: "Contactless Delivery", description: "Safe and hygienic delivery at your doorstep.", media: { imageSrc: "http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg?_wi=2" }, items: [{ text: "Safe drop-off", icon: Shield }, { text: "Real-time updates", icon: Zap }], reverse: false },
         { title: "Wide Menu Selection", description: "Diverse cuisine options to satisfy your cravings.", media: { imageSrc: "http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg?_wi=2" }, items: [{ text: "Daily changing specials", icon: Sparkles }, { text: "Authentic recipes", icon: CheckCircle }], reverse: true },
@@ -90,6 +91,7 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={true}
+      description="Choose from our daily curated selection of fresh, gourmet meals designed to delight your palate."
       products={[
         { id: "p1", name: "Gourmet Platter", price: "₹299", imageSrc: "http://img.b2bpic.net/free-photo/italian-wedding-soup-with-meatballs-spinach-wooden-table_123827-31515.jpg" },
         { id: "p2", name: "Healthy Salad Bowl", price: "₹199", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-delicious-salmon-bowl-indoors_23-2150533962.jpg" },
@@ -102,6 +104,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwelve
       useInvertedBackground={false}
+      cardTag="Testimonials"
       testimonials={[{ id: "t1", name: "Rahul P.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-delicious-cocktail_23-2150166104.jpg" }, { id: "t2", name: "Sneha K.", imageSrc: "http://img.b2bpic.net/free-photo/closeup-charming-delighted-cute-female-customer-give-positive-feedback-show-thumbsup-like-gesture-sm_1258-131745.jpg" }]}
       cardTitle="Loved by Igatpuri"
       cardAnimation="slide-up"
@@ -121,6 +124,9 @@ export default function LandingPage() {
       <SocialProofOne
       names={["Instagram", "Facebook", "WhatsApp", "Twitter"]}
       title="Follow Us For Daily Updates"
+      textboxLayout="default"
+      useInvertedBackground={false}
+      description="Stay connected with us across all platforms."
     />
   </div>
 
@@ -128,6 +134,7 @@ export default function LandingPage() {
       <ContactText
       text="Need a fresh meal? Give us a call at +91 97676 38838 or message us on WhatsApp to place your order. Our team is ready to serve you!"
       background={{ variant: "gradient-bars" }}
+      useInvertedBackground={false}
       buttons={[{ text: "Call Us Now", href: "tel:+919767638838" }, { text: "Order via WhatsApp", href: "https://wa.me/919767638838" }]}
     />
   </div>
@@ -135,10 +142,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       logoText="The Foodie Fixer"
-      columns={[
-        { items: [{ label: "Home", href: "#hero" }, { label: "Menu", href: "#products" }] },
-        { items: [{ label: "Call Support", href: "tel:+919767638838" }, { label: "WhatsApp Support", href: "https://wa.me/919767638838" }] }
-      ]}
+      leftLink={{ text: "Home", href: "#hero" }}
+      rightLink={{ text: "Menu", href: "#products" }}
     />
   </div>
       </ReactLenis>
