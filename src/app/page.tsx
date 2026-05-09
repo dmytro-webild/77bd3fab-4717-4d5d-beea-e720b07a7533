@@ -66,7 +66,7 @@ export default function LandingPage() {
           handle: "@rahulp",
           testimonial: "Excellent service and always fresh food! The best in Igatpuri.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg?_wi=1",
         },
         {
           name: "Sneha K.",
@@ -107,7 +107,7 @@ export default function LandingPage() {
           href: "https://wa.me/919767638838",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg?_wi=1"
       imageAlt="Fresh meal delivery"
       avatars={[
         {
@@ -177,7 +177,7 @@ export default function LandingPage() {
           description: "Fast and safe doorstep service across Igatpuri.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg?_wi=1"
       imageAlt="Chef preparing meals"
       mediaAnimation="slide-up"
     />
@@ -206,7 +206,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg?_wi=2",
           imageAlt: "chef preparing fresh food in kitchen",
         },
         {
@@ -226,7 +226,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg?_wi=2",
           imageAlt: "chef preparing fresh food in kitchen",
         },
         {
@@ -246,7 +246,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg?_wi=2",
           imageAlt: "chef preparing fresh food in kitchen",
         },
       ]}
