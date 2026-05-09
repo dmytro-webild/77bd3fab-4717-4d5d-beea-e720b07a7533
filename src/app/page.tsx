@@ -54,7 +54,7 @@ export default function LandingPage() {
       testimonials={[
         {
           name: "Rahul P.",          handle: "@rahulp",          testimonial: "Excellent service and always fresh food! The best in Igatpuri.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg?_wi=1"},
         {
           name: "Sneha K.",          handle: "@snehak",          testimonial: "The delivery was prompt and the meal was incredibly tasty.",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/supportive-cute-blond-girlfriend-cheering-liking-interesting-concept-cool-idea-thumbsup-smiling_1258-229592.jpg"},
@@ -74,7 +74,7 @@ export default function LandingPage() {
         {
           text: "Order on WhatsApp",          href: "https://wa.me/919767638838"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg?_wi=1"
       imageAlt="Fresh meal delivery"
       avatars={[
         {
@@ -118,7 +118,7 @@ export default function LandingPage() {
         {
           title: "Reliable Delivery",          description: "Fast and safe doorstep service across Igatpuri."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg?_wi=1"
       imageAlt="Chef preparing meals"
       mediaAnimation="slide-up"
     />
@@ -132,7 +132,7 @@ export default function LandingPage() {
       features={[
         {
           title: "Contactless Delivery",          description: "Safe and hygienic delivery at your doorstep.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg",            imageAlt: "chef preparing fresh food in kitchen"
+            imageSrc: "http://img.b2bpic.net/free-photo/cook-preparing-salad-with-fried-meat-table_23-2148040158.jpg?_wi=2",            imageAlt: "chef preparing fresh food in kitchen"
           },
           items: [
             {
@@ -146,7 +146,7 @@ export default function LandingPage() {
         },
         {
           title: "Wide Menu Selection",          description: "Diverse cuisine options to satisfy your cravings.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg",            imageAlt: "chef preparing fresh food in kitchen"
+            imageSrc: "http://img.b2bpic.net/free-photo/front-view-female-chef-kitchen-slicing-vegetables_23-2148763137.jpg?_wi=2",            imageAlt: "chef preparing fresh food in kitchen"
           },
           items: [
             {
@@ -160,7 +160,7 @@ export default function LandingPage() {
         },
         {
           title: "Affordable Quality",          description: "Premium service without the premium price tag.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg",            imageAlt: "chef preparing fresh food in kitchen"
+            imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-pizza-home-together_23-2150419414.jpg?_wi=2",            imageAlt: "chef preparing fresh food in kitchen"
           },
           items: [
             {
