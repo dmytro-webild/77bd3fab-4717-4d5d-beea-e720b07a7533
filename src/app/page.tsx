@@ -142,8 +142,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       logoText="The Foodie Fixer"
-      leftLink={{ text: "Home", href: "#hero" }}
-      rightLink={{ text: "Menu", href: "#products" }}
+      columns={[{ items: [{ label: "Home", href: "#hero" }, { label: "Menu", href: "#products" }] }]}
     />
   </div>
       </ReactLenis>
