@@ -70,7 +70,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         {
-          text: "Call Now",          href: "tel:09767638838"},
+          text: "Call Now",          href: "tel:+919767638838"},
         {
           text: "Order on WhatsApp",          href: "https://wa.me/919767638838"},
       ]}
@@ -246,23 +246,23 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Foodie Fixer",        "Igatpuri Kitchen",        "Fresh Prep",        "Healthy Bite",        "Gourmet Hub",        "Meal Express",        "Daily Chef"]}
-      title="Trusted by Local Partners"
-      description="We are proud to serve the community in partnership with local businesses."
+        "Instagram: @TheFoodieFixer",        "Facebook: The Foodie Fixer",        "WhatsApp: +919767638838",        "Twitter: @FoodieFixerIg"]} 
+      title="Follow Us For Daily Updates"
+      description="Stay connected with The Foodie Fixer for special daily offers and menu updates."
     />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
-      title="Get In Touch"
-      description="Ready to eat? Place your order or ask us any questions."
+      title="Get In Touch with The Foodie Fixer"
+      description="Need a fresh meal? Give us a call or message us on WhatsApp for quick delivery."
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "phone",          type: "tel",          placeholder: "Your Phone Number",          required: true,
+          name: "phone",          type: "tel",          placeholder: "Your Phone Number (+91...)",          required: true,
         },
       ]}
       textarea={{
@@ -279,6 +279,8 @@ export default function LandingPage() {
         {
           title: "Navigate",          items: [
             {
+              label: "Home",              href: "#hero"},
+            {
               label: "About",              href: "#about"},
             {
               label: "Menu",              href: "#products"},
@@ -287,11 +289,13 @@ export default function LandingPage() {
           ],
         },
         {
-          title: "Legal",          items: [
+          title: "Connect",          items: [
             {
-              label: "Privacy Policy",              href: "#"},
+              label: "Call Now",              href: "tel:+919767638838"},
             {
-              label: "Terms of Service",              href: "#"},
+              label: "WhatsApp",              href: "https://wa.me/919767638838"},
+            {
+              label: "Instagram",              href: "https://instagram.com/TheFoodieFixer"},
           ],
         },
       ]}
